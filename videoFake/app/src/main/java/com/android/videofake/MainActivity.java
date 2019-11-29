@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     public void dialogOpen(){
         Log.d(TAG," Open dialog");
         AlertDialog.Builder a_builder = new AlertDialog.Builder(MainActivity.this);
-        a_builder.setMessage("Account expired !!! Log in again")
+        a_builder.setMessage("Your account has timed out. Please log in again.")
                 .setCancelable(false)
                 .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                     @Override
@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
                     }
                 }) ;
         AlertDialog alert = a_builder.create();
-        alert.setTitle("Alert !!!");
+        alert.setTitle("Error");
         alert.show();
     }
 
