@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">videoFake</string>
-    <string name="downimage">downImage</string>
-    <string name="upimage">UpImage</string>
-    <string name="username">用户名</string>
-</resources>
